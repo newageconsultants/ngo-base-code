@@ -11,6 +11,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <img src="/culture.jpg" alt="Cultural Exchange Program" className={styles.headerImage} />
+
         <h1 className={styles.title}>
           Welcome to our NGO's Cultural Exchange Program
         </h1>

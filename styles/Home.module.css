@@ -2,7 +2,6 @@
 
 .container {
   min-height: 100vh;
-  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,41 +10,38 @@
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
   text-align: center;
 }
 
-.footer {
+.headerImage {
   width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
+  max-height: 400px; /* Adjust height as needed */
+  object-fit: cover;
 }
 
 .title {
+  margin-top: 2rem;
+  font-size: 2rem;
   color: #333;
+}
+
+.description {
+  margin-top: 1rem;
+  color: #666;
 }
 
 .grid {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  justify-content: center;
+  align-items: center;
   margin-top: 3rem;
 }
 
 .card {
-  margin: 1rem;
   flex-basis: calc(33.333% - 2rem);
+  margin: 1rem;
   padding: 1.5rem;
   text-align: left;
   color: #333;
@@ -70,4 +66,14 @@
   margin: 0;
   font-size: 1rem;
   color: #666;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
 }
