@@ -17,6 +17,8 @@ export default function Home() {
           Welcome to our NGO's Cultural Exchange Program
         </h1>
 
+        <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>
+
         <p className={styles.description}>
           We specialize in organizing cultural exchange programs between students from multiple countries.
         </p>
